@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tạo và gọi hàm</title>
+</head>
+<body>
+<script>
+    let cauhoi = confirm('Chúng ta sẽ chơi gì đó chứ? ');
+    let traloi = hamtraloi(cauhoi) ;
+    alert(traloi)
+
+    function hamtraloi(hoidap) {
+        let ketqua;
+        if (hoidap) {
+            ketqua = "Tuyệt, chúng ta sẽ chơi cờ caro";
+        } else {
+            ketqua = "có lẽ để lúc khác";
+        }
+        return ketqua;
+    }
+</script>
+</body>
+</html>
